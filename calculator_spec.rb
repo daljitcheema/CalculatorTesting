@@ -26,7 +26,6 @@ class CalculatorSpec <MiniTest::Test
       my_calculator.accumulator =100
       assert_equal(my_calculator.divide(50), 2)
       assert_equal(1, my_calculator.divide(2))
-      assert_equal()
   end
   def test_accumulator_is_floating_point
     my_calculator = Calculator.new

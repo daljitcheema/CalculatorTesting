@@ -1,5 +1,9 @@
 class Calculator
   attr_accessor :accumulator 
+
+    def accumulator=(val)
+      @accumulator = val.to_f
+    end
     
     def add(val)
       self.accumulator += val
