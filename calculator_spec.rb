@@ -6,7 +6,11 @@ require './calculator'
 class CalculatorSpec <MiniTest::Test
 	def test_accumulator
 		my_calculator = Calculator.new
-		my_calculator.set_accumulator = 5
-		asset_equal(my_calculator.get_accumulator, 5)
+		my_calculator.accumulator = 5
+		assert_equal(my_calculator.accumulator, 5)
 	end
+
+
+
+  
 end
